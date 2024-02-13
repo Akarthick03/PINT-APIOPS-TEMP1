@@ -37,3 +37,12 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 clip < ~/.ssh/id_ed25519.pub
 
 3. add it to github ssh key to establish connection from local to remote repo.
+
+
+----------------
+adding testfile :
+
+checking out : git checkout -b master
+adding all files to github master branch : git add .
+initial commit :git commit -m "initial commit"
+pushing changes to origin:git push origin master
