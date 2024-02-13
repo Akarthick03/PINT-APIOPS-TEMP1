@@ -1,0 +1,18 @@
+
+Working :
+
+Using SPAT :
+deck gateway ping --konnect-control-plane-name="Stack 7-PINT-Control Plane" --konnect-addr="https://eu.api.konghq.com" --konnect-token="spat_60LsCtfgYT2pfifj3yKHgqLC8ey7qnVJ2nsLXaruiMeyec1gA"
+
+
+using KPAT :
+
+deck gateway ping --konnect-control-plane-name="Stack 7-PINT-Control Plane" --konnect-addr="https://eu.api.konghq.com" --konnect-token="kpat_I2hYeqGHveSK0ZdqtaTx6BzWOBZ4hYkcQNtukDARjViQi4hup"
+
+deck gateway ping --konnect-token="kpat_I2hYeqGHveSK0ZdqtaTx6BzWOBZ4hYkcQNtukDARjViQi4hup"
+
+
+deck gateway dump --konnect-token="kpat_I2hYeqGHveSK0ZdqtaTx6BzWOBZ4hYkcQNtukDARjViQi4hup"
+
+GITHUB :
+https://github.com/Akarthick03/PINT-APIOPS-TEMP1.git
