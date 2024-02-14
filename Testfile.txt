@@ -1,5 +1,4 @@
-say hello world 
-
+hello world1
 echo "# PINT-APIOPS-TEMP1" >> README.md
 git init
 git add README.md
