@@ -1,0 +1,29 @@
+_format_version: "3.0"
+_konnect:
+  control_plane_name: Stack 7-PINT-Control Plane
+services:
+- connect_timeout: 60000
+  enabled: true
+  host: httpbin.org
+  name: Test_Service_1
+  port: 443
+  protocol: https
+  read_timeout: 60000
+  retries: 5
+  routes:
+  - https_redirect_status_code: 426
+    name: Route_Get
+    path_handling: v0
+    paths:
+    - /get
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+    tags:
+    - get
+  write_timeout: 60000
