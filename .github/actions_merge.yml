@@ -1,0 +1,19 @@
+name: Apply generated configuration to local Kong gateway and update API documentation
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy_to_kong:
+    runs-on: ubuntu latest
+    name: Apply generated configuration to local Kong gateway and update API documentation
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Validate Kong declarative configuration
+        run: deck validate -s kong.yaml
+      - name: Deploy declarative config
+        run: deck sync -s kong.yaml
+     
