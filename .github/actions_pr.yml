@@ -1,0 +1,18 @@
+on:
+  pull_request:
+    branches:
+      - master
+
+  jobs:
+  deploy_to_kong:
+    runs-on: ubuntu latest
+    name:  Validate config
+
+      steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Validate Kong declarative configuration
+        run: deck validate -s kong.yaml
+      
+
+      

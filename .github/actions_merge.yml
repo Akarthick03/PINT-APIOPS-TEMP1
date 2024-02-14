@@ -5,7 +5,7 @@ on:
     branches:
       - master
 
-jobs:
+jjobs:
   deploy_to_kong:
     runs-on: ubuntu latest
     name: Apply generated configuration to local Kong gateway and update API documentation
