@@ -8,7 +8,7 @@ services:
   name: Test_Service_1
   port: 443
   protocol: https
-  read_timeout: 60000
+  read_timeout: 50000
   retries: 5
   routes:
   - https_redirect_status_code: 426
