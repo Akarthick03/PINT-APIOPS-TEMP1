@@ -13,5 +13,8 @@ deck gateway ping --konnect-token="kpat_I2hYeqGHveSK0ZdqtaTx6BzWOBZ4hYkcQNtukDAR
 
 deck gateway dump --konnect-token="kpat_I2hYeqGHveSK0ZdqtaTx6BzWOBZ4hYkcQNtukDARjViQi4hup"
 
+deck gateway dump --konnect-control-plane-name="Stack 7-PINT-Control Plane" --konnect-addr="https://eu.api.konghq.com" --konnect-token="kpat_I2hYeqGHveSK0ZdqtaTx6BzWOBZ4hYkcQNtukDARjViQi4hup" --output-file -kong
+
+
 GITHUB :
 https://github.com/Akarthick03/PINT-APIOPS-TEMP1.git
