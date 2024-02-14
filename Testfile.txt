@@ -1,4 +1,4 @@
-hello world 
+say hello world 
 
 echo "# PINT-APIOPS-TEMP1" >> README.md
 git init
